@@ -1,4 +1,4 @@
-## Retail Sales Performance Dashboard (Excel)
+# Retail Sales Performance Dashboard (Excel)
 
 An end-to-end sales analysis built in Excel: from a raw, messy orders file to a cleaned dataset, PivotTable analysis, and a dashboard that answers practical business questions.
 
@@ -8,7 +8,7 @@ An end-to-end sales analysis built in Excel: from a raw, messy orders file to a 
 
 Goal: understand what drives sales and profit for a US retail company, and where discounts and customer mix help or hurt.
 
-- Period: Jan 2022 – Dec 2023
+- Period: Jan 2022 - Dec 2023
 - Orders analyzed: 9,481 (from 9,994 raw records)
 - Tools: Excel, Power Query, PivotTables, PivotCharts, Slicers
 
@@ -22,7 +22,7 @@ Goal: understand what drives sales and profit for a US retail company, and where
 ## Data
 
 - Source: [Retail Orders dataset on Kaggle](https://www.kaggle.com/datasets/ankitbansal06/retail-orders) (`orders.csv`)
-- Size: 9,994 rows × 16 columns (order date, ship mode, segment, location, category, sub-category, cost price, list price, quantity, discount percent)
+- Size: 9,994 rows x 16 columns (order date, ship mode, segment, location, category, sub-category, cost price, list price, quantity, discount percent)
 
 ## Data Cleaning (Power Query)
 
@@ -34,8 +34,8 @@ Goal: understand what drives sales and profit for a US retail company, and where
 | Other columns | Checked for duplicates, inconsistent labels, and data types. Postal Code kept as text |
 
 Calculated columns:
-- Sale Price = List Price × (1 − Discount)
-- Profit = Sale Price − Cost Price
+- Sale Price = List Price x (1 - Discount)
+- Profit = Sale Price - Cost Price
 - Profit Margin % = Profit / Sale Price
 
 ## Dashboard Contents
@@ -52,15 +52,15 @@ Calculated columns:
 
 ## Key Findings
 
-1. Technology leads on every core measure: sales (~$806K) and profit (~$76K). Profit margin (total profit ÷ total sales) is similar across categories, at roughly 9–9.5%.
-2. Chairs is the most profitable sub-category (~$29.8K), slightly ahead of Phones (~$28.2K) even though Phones has slightly higher sales.
+1. Technology leads on every core measure: sales ($806K) and profit ($76K). Profit margin (total profit / total sales) is similar across categories, at roughly 9-9.5%.
+2. Chairs is the most profitable sub-category ($29.8K), slightly ahead of Phones ($28.3K) even though Phones has slightly higher sales.
 3. Fasteners, Labels, and Envelopes earn the least profit, but their sales are small, so the financial impact is limited.
-4. West is the strongest region (~$697K sales, ~$62K profit). South is the weakest, with about 54% of West's sales.
+4. West is the strongest region ($700K sales, $62.5K profit). South is the weakest, with about 54% of West's sales.
 5. Sales show no strong recurring seasonality, except October, which is about 30% above the monthly average in both years.
 6. October's strength is not driven by discounts. Its average discount is in line with other months.
-7. Discounts erode profit without lifting sales. From a 2% to a 5% discount, profit falls about 29% (~$59K to ~$42K) while sales stay roughly flat.
-8. Consumer accounts for about 50% of sales and profit. Profit margin is similar across segments (~9–9.6%), so the gap comes from volume, not efficiency.
-9. Standard Class is the dominant shipping mode (~59% of orders).
+7. Discounts erode profit without lifting sales. From a 2% to a 5% discount, profit falls about 29% ($59K to $42K) while sales stay roughly flat.
+8. Consumer accounts for about 50% of sales and profit. Profit margin is similar across segments (9-9.6%), so the gap comes from volume, not efficiency.
+9. Standard Class is the dominant shipping mode (59% of orders).
 
 Additional observation: about 42% of order lines have negative profit after discount, because in many products the cost price equals the list price. These rows were kept, since they reflect the pricing reality and support the discount finding.
 
@@ -73,6 +73,6 @@ Additional observation: about 42% of order lines have negative profit after disc
 
 | File | Description |
 |---|---|
-| Retail_Sales_Performance.xlsx | Final workbook: Dashboard, Key Findings, Pivot Tables, Cleaned Data |
+| Retail Sales Performance Dashboard 2022-2023.xlsx | Final workbook: Dashboard, Key Findings, Pivot Tables, Cleaned Data |
 | orders.csv | Original raw data |
 | Dashboard.png | Dashboard screenshot |
