@@ -73,6 +73,6 @@ Additional observation: about 42% of order lines have negative profit after disc
 
 | File | Description |
 |---|---|
-| Retail Sales Performance Dashboard 2022-2023.xlsx | Final workbook: Dashboard, Key Findings, Pivot Tables, Cleaned Data |
-| orders.csv | Original raw data |
-| Dashboard.png | Dashboard screenshot |
+| [`Retail Sales Performance Dashboard 2022-2023.xlsx`](Retail%20Sales%20Performance%20Dashboard%202022-2023.xlsx) | Final workbook: Dashboard, Key Findings, Pivot Tables, Cleaned Data |
+| [`orders.csv`](orders.csv) | Original raw data |
+| [`Dashboard.png`](Dashboard.png) | Dashboard screenshot |
